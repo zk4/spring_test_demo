@@ -1,4 +1,4 @@
-package com.zk.controller;
+package com.zk;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.zk.entity.User;
@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 
-public class MyControllerTest2 {
+public class MyController_2_Test {
 
 
 

@@ -1,6 +1,8 @@
-package com.zk.controller;
+package com.zk;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.zk.controller.UserController;
+import com.zk.controller.UserExceptionAdvice;
 import com.zk.entity.User;
 import com.zk.exception.UserNotFound;
 import com.zk.service.UserService;
@@ -24,7 +26,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 //由 Junit 4 启动 Mockito
 @RunWith(MockitoJUnitRunner.class)
 @AutoConfigureRestDocs
-public class MyControllerTest1 {
+public class MyController_1_Test {
 
 
 
@@ -36,7 +38,7 @@ public class MyControllerTest1 {
 
 	@InjectMocks
 	// Mock 要注入的类
-	UserController userController;
+			UserController userController;
 
 
 	@Before
